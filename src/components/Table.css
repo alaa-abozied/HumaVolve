@@ -1,0 +1,33 @@
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+td {
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.stripe {
+  background-color: #f9fafb;
+}
